@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": false,
+        "outDir": "./dist",
+        "sourceMap": true,
+        "target": "es6",
+        "typeRoots" : [
+            "./node_modules/@types"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

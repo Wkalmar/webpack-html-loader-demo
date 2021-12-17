@@ -1,0 +1,43 @@
+﻿body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#mapid {
+    height: calc(100vh - 35px);
+    margin-top: 35px;
+}
+
+/** Leaflet Style Overrides **/
+#mapid .leaflet-popup {
+    bottom: 0;
+}
+
+#mapid .leaflet-popup-content {
+    user-select: none;
+    cursor: pointer;
+}
+
+#mapid .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: forestgreen;
+    color: beige;
+    text-align: center;
+}
+
+#mapid .leaflet-control-zoom {
+    border: none;
+}
+
+#mapid .leaflet-control-zoom-in, .leaflet-control-zoom-out {
+    background: forestgreen;
+    color: beige;
+    border: none;
+}
+
+/*@media (max-width: $breakpointMobile) {
+    .leaflet-bottom {
+        bottom: calc(#{$footerHeight} + 10px)
+    }
+}*/

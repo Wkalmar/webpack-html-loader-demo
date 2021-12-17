@@ -1,0 +1,11 @@
+.sights-control {
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 5000;
+    background: white;
+    overflow-y: auto;
+    width: 300px;
+    height: 100%;
+}

@@ -1,0 +1,19 @@
+nav {
+    background-color: forestgreen;    
+    display: flex;
+    padding: .5rem 1rem;    
+}
+
+nav a {
+    color: beige;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
